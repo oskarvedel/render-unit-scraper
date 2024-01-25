@@ -99,6 +99,8 @@ export class Rendertron {
       ctx.set("Content-Type", "application/json");
       ctx.body = returnJson;
     } catch (error) {
+      console.log("error in handleScrapeRequest");
+      console.log(error);
       const err = error as ScreenshotError;
       ctx.status = err.type === "Forbidden" ? 403 : 500;
     }

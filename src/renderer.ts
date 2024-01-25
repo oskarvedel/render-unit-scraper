@@ -31,7 +31,9 @@ export class Renderer {
   }
 
   async scrape(supplier: string): Promise<string> {
+    console.log("scrape function");
     if (supplier === "boxdepotet") {
+      console.log("scraping boxdepotet");
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
       let units: Promise<string>;
