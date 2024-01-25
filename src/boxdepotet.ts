@@ -7,7 +7,7 @@ import { Page } from "puppeteer";
 export class BoxdepotetScraper {
   async scrapeBoxdepotetUnits(): Promise<string> {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
     });
 
     const page = await browser.newPage();
@@ -30,7 +30,6 @@ export class BoxdepotetScraper {
 
     var counter = 0;
     for (let url of departmenUrls) {
-
       //check if the url starts wit  'https://boxdepotet.dk/, else add it
       if (!url.startsWith("https://boxdepotet.dk/")) {
         url = "https://boxdepotet.dk" + url;
