@@ -38,20 +38,11 @@ export class Renderer {
       //declare units object of type JSON
       let units: Promise<string>;
       units = scraper.scrapeBoxdepotetUnits();
-
+      console.log("finished scrape");
       return units;
     }
-    //create a new empty json object
-    const units = JSON.parse("{test}");
-    return units;
-    // return supplier as String;
-    // if (supplier === "test") {
-    //   const page = await this.browser.newPage();
-    //   await page.goto("https://www.google.com");
-    //   return "hej";
-    // }
-
-    // return "string";
+    //return an error and tell the user that the supplier is not supported
+    return "Supplier not supported";
   }
 
   async serialize(
