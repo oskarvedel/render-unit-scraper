@@ -1,5 +1,6 @@
 import * as puppeteer from "puppeteer";
 import * as url from "url";
+import * as fs from "fs";
 import { BoxdepotetScraper } from "./boxdepotet";
 
 import { Config } from "./config";
@@ -32,15 +33,35 @@ export class Renderer {
 
   async scrape(supplier: string): Promise<string> {
     console.log("scrape function");
+    let file_data_units = null;
+    let file_data = null;
     if (supplier === "boxdepotet") {
-      console.log("scraping boxdepotet");
+      console.log("getting boxdepotet scraper data");
+      //read the file
+      try {
+        console.log("trying to read file");
+        file_data = fs.readFileSync("boxdepotet.json", "utf8");
+        console.log("file_data");
+        console.log(file_data);
+        //parse the file into JSON
+        file_data_units = JSON.parse(file_data);
+        console.log("file_data_units");
+        console.log(file_data_units);
+      } catch (err) {
+        console.error("An error occurred while reading the file:", err);
+      }
+      if (file_data_units !== null) {
+        console.log("returning file_data_units");
+        return file_data_units;
+      }
+
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
-      let units: Promise<string>;
-      units = scraper.scrapeBoxdepotetUnits();
+      let scraper_units: Promise<string>;
+      scraper_units = scraper.scrapeBoxdepotetUnits();
       console.log("finished scrape");
-      console.log(units);
-      return units;
+      console.log(scraper_units);
+      return scraper_units;
     }
     //return an error and tell the user that the supplier is not supported
     return "Supplier not supported";

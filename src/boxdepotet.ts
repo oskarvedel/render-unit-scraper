@@ -63,18 +63,27 @@ export class BoxdepotetScraper {
     }
 
     //convert allLocationsUnitData to JSON
-    const allLocationsUnitDataJson = JSON.stringify(allLocationsUnitData);
+    const allLocationsUnitDataJson = JSON.stringify(
+      allLocationsUnitData,
+      null,
+      2
+    );
+
+    //create an render.com environment variable called BOXDEPOTET_JSON
+    process.env.BOXDEPOTET_SCRAPE_TIME = allLocationsUnitDataJson;
+
+    //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
+    process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
+
+    //set a secret file and put the JSON data in it
+
+    // Save the JSON data to a file
+    fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
+
 
     console.log(allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
-
-    // Save the JSON data to a file
-    fs.writeFileSync(
-      "boxdepotetUnits.json",
-      JSON.stringify(allLocationsUnitData, null, 2)
-    );
-    return JSON.stringify(allLocationsUnitData, null, 2);
   }
 
   // Function to extract data from the room list
