@@ -39,6 +39,7 @@ export class Renderer {
       let units: Promise<string>;
       units = scraper.scrapeBoxdepotetUnits();
       console.log("finished scrape");
+      console.log(units);
       return units;
     }
     //return an error and tell the user that the supplier is not supported

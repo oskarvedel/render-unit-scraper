@@ -56,12 +56,16 @@ export class BoxdepotetScraper {
 
       const roomData = await this.extractRoomData(page);
 
+      console.log(roomData);
+
       allLocationsUnitData.push({ url, roomData });
       counter++;
     }
 
     //convert allLocationsUnitData to JSON
     const allLocationsUnitDataJson = JSON.stringify(allLocationsUnitData);
+
+    console.log(allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
 
