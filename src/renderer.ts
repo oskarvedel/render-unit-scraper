@@ -41,18 +41,18 @@ export class Renderer {
       try {
         console.log("trying to read file");
         file_data = fs.readFileSync("boxdepotet.json", "utf8");
-        console.log("file_data");
-        console.log(file_data);
+        // console.log("file_data");
+        // console.log(file_data);
         //parse the file into JSON
         file_data_units = JSON.parse(file_data);
-        console.log("file_data_units");
-        console.log(file_data_units);
+        // console.log("file_data_units");
+        // console.log(file_data_units);
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
       if (file_data_units !== null) {
-        console.log("returning file_data_units");
-        return file_data_units;
+        // console.log("returning file_data_units");
+        // return file_data_units;
       }
 
       const scraper = new BoxdepotetScraper();
