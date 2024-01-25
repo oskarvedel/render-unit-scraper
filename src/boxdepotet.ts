@@ -69,19 +69,17 @@ export class BoxdepotetScraper {
       2
     );
 
+    console.log("creating environment variables");
     //create an render.com environment variable called BOXDEPOTET_JSON
-    process.env.BOXDEPOTET_SCRAPE_TIME = allLocationsUnitDataJson;
+    process.env.BOXDEPOTET_SCRAPE = allLocationsUnitDataJson;
 
     //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
     process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
 
-    //set a secret file and put the JSON data in it
-
     // Save the JSON data to a file
     fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
 
-
-    console.log(allLocationsUnitDataJson);
+    // console.log(allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
   }

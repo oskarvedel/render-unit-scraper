@@ -57,8 +57,8 @@ export class Renderer {
 
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
-      let scraper_units: Promise<string>;
-      scraper_units = scraper.scrapeBoxdepotetUnits();
+      let scraper_units: string;
+      scraper_units = await scraper.scrapeBoxdepotetUnits();
       console.log("finished scrape");
       console.log(scraper_units);
       return scraper_units;
