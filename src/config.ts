@@ -35,7 +35,7 @@ export type Config = {
 export class ConfigManager {
   public static config: Config = {
     datastoreCache: false,
-    timeout: 10000,
+    timeout: 1000000,
     port: "10000",
     width: 1000,
     height: 1000,
