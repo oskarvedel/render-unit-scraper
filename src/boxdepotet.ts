@@ -57,10 +57,6 @@ export class BoxdepotetScraper {
       const roomData = await this.extractRoomData(page);
 
       allLocationsUnitData.push({ url, roomData });
-      //stop the loop after the first iteration
-      if (counter > 0) {
-        break;
-      }
       counter++;
     }
 
