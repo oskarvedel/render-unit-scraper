@@ -7,7 +7,6 @@ import "dotenv/config";
 export class BoxdepotetScraper {
   async scrapeBoxdepotetUnits(): Promise<string> {
     //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
-    console.log(process.env);
     // process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
     fs.writeFileSync("scrape_time.txt", new Date().toISOString());
 
