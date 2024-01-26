@@ -79,6 +79,7 @@ export class Renderer {
       console.log("finished scrape");
       return scraper_units;
     }
+    console.log("Supplier not supported, returning error");
 
     //return an error and tell the user that the supplier is not supported
     return "Supplier not supported";
