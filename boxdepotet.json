@@ -19,20 +19,20 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=543&department_id=2"
       },
       {
-        "roomNumber": "#127A",
-        "price": "325 kr.",
-        "cubicMeters": "6,50 m3",
-        "squareMeters": "2,50 m2",
-        "availability": "Ledig fra d. 16-02-2024",
-        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2112&department_id=2"
-      },
-      {
         "roomNumber": "#788C",
         "price": "325 kr.",
         "cubicMeters": "6,50 m3",
         "squareMeters": "2,17 m2",
         "availability": "Ledig fra d. 16-02-2024",
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2157&department_id=2"
+      },
+      {
+        "roomNumber": "#127A",
+        "price": "325 kr.",
+        "cubicMeters": "6,50 m3",
+        "squareMeters": "2,50 m2",
+        "availability": "Ledig fra d. 16-02-2024",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2112&department_id=2"
       },
       {
         "roomNumber": "#788B",
@@ -147,6 +147,14 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2066&department_id=2"
       },
       {
+        "roomNumber": "#439",
+        "price": "528 kr.",
+        "cubicMeters": "12,00 m3",
+        "squareMeters": "4,44 m2",
+        "availability": "Ledig",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=272&department_id=2"
+      },
+      {
         "roomNumber": "#135",
         "price": "528 kr.",
         "cubicMeters": "12,00 m3",
@@ -155,12 +163,12 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=95&department_id=2"
       },
       {
-        "roomNumber": "#439",
-        "price": "528 kr.",
-        "cubicMeters": "12,00 m3",
-        "squareMeters": "4,44 m2",
-        "availability": "Ledig",
-        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=272&department_id=2"
+        "roomNumber": "#567",
+        "price": "533 kr.",
+        "cubicMeters": "12,70 m3",
+        "squareMeters": "4,23 m2",
+        "availability": "Ledig fra d. 01-03-2024",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=379&department_id=2"
       },
       {
         "roomNumber": "#450",
@@ -360,20 +368,20 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=543&department_id=2"
       },
       {
-        "roomNumber": "#127A",
-        "price": "325 kr.",
-        "cubicMeters": "6,50 m3",
-        "squareMeters": "2,50 m2",
-        "availability": "Ledig fra d. 16-02-2024",
-        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2112&department_id=2"
-      },
-      {
         "roomNumber": "#788C",
         "price": "325 kr.",
         "cubicMeters": "6,50 m3",
         "squareMeters": "2,17 m2",
         "availability": "Ledig fra d. 16-02-2024",
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2157&department_id=2"
+      },
+      {
+        "roomNumber": "#127A",
+        "price": "325 kr.",
+        "cubicMeters": "6,50 m3",
+        "squareMeters": "2,50 m2",
+        "availability": "Ledig fra d. 16-02-2024",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2112&department_id=2"
       },
       {
         "roomNumber": "#788B",
@@ -488,6 +496,14 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2066&department_id=2"
       },
       {
+        "roomNumber": "#439",
+        "price": "528 kr.",
+        "cubicMeters": "12,00 m3",
+        "squareMeters": "4,44 m2",
+        "availability": "Ledig",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=272&department_id=2"
+      },
+      {
         "roomNumber": "#135",
         "price": "528 kr.",
         "cubicMeters": "12,00 m3",
@@ -496,12 +512,12 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=95&department_id=2"
       },
       {
-        "roomNumber": "#439",
-        "price": "528 kr.",
-        "cubicMeters": "12,00 m3",
-        "squareMeters": "4,44 m2",
-        "availability": "Ledig",
-        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=272&department_id=2"
+        "roomNumber": "#567",
+        "price": "533 kr.",
+        "cubicMeters": "12,70 m3",
+        "squareMeters": "4,23 m2",
+        "availability": "Ledig fra d. 01-03-2024",
+        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=379&department_id=2"
       },
       {
         "roomNumber": "#450",
@@ -1376,7 +1392,7 @@
         "price": "410 kr.",
         "cubicMeters": "9,00 m3",
         "squareMeters": "4,07 m2",
-        "availability": "Ledig fra d. 31-01-2024",
+        "availability": "Ledig",
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=2275&department_id=5"
       },
       {

@@ -1,11 +1,16 @@
 import * as puppeteer from "puppeteer";
 import * as fs from "fs";
 import { Page } from "puppeteer";
+import "dotenv/config";
 
 //make the ts file understand that page and button are defined by puppeteer
-
 export class BoxdepotetScraper {
   async scrapeBoxdepotetUnits(): Promise<string> {
+    //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
+    console.log(process.env);
+    // process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
+    fs.writeFileSync("scrape_time.txt", new Date().toISOString());
+
     const browser = await puppeteer.launch({
       headless: true,
     });
@@ -56,7 +61,7 @@ export class BoxdepotetScraper {
 
       const roomData = await this.extractRoomData(page);
 
-      console.log(roomData);
+      // console.log(roomData);
 
       allLocationsUnitData.push({ url, roomData });
       counter++;
@@ -69,17 +74,8 @@ export class BoxdepotetScraper {
       2
     );
 
-    console.log("creating environment variables");
-    //create an render.com environment variable called BOXDEPOTET_JSON
-    process.env.BOXDEPOTET_SCRAPE = allLocationsUnitDataJson;
-
-    //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
-    process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
-
     // Save the JSON data to a file
     fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
-
-    // console.log(allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
   }

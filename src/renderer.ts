@@ -37,24 +37,41 @@ export class Renderer {
     let file_data = null;
     if (supplier === "boxdepotet") {
       console.log("getting boxdepotet scraper data");
-      //read the file
+      let lastRunTime;
       try {
-        console.log("trying to read file");
-        file_data = fs.readFileSync("boxdepotet.json", "utf8");
-        // console.log("file_data");
-        // console.log(file_data);
-        //parse the file into JSON
-        file_data_units = JSON.parse(file_data);
-        // console.log("file_data_units");
-        // console.log(file_data_units);
+        //read the file with the latest runtime
+        console.log("trying to read  latest runtimefile");
+        lastRunTime = fs.readFileSync("scrape_time.txt", "utf8");
+        console.log("lastRunTime" + lastRunTime);
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      if (file_data_units !== null) {
-        // console.log("returning file_data_units");
-        // return file_data_units;
+      //check if the last run time is more than 10 minutes ago
+      if (
+        lastRunTime !== undefined &&
+        new Date().getTime() - new Date(lastRunTime).getTime() <
+          10 * 60 * 1000 /*10 minutes*/
+      ) {
+        console.log("returning cached data");
+        try {
+          //read the file
+          console.log("trying to read file");
+          file_data = fs.readFileSync("boxdepotet.json", "utf8");
+          //parse the file into JSON
+          file_data_units = JSON.parse(file_data);
+        } catch (err) {
+          console.error("An error occurred while reading the file:", err);
+        }
+        if (file_data_units !== null) {
+          console.log("returning file_data_units");
+          return file_data_units;
+        }
+      } else {
+        console.log(
+          "last run time is more than 10 minutes ago, running scraper"
+        );
       }
-
+      //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
       let scraper_units: string;
@@ -63,6 +80,7 @@ export class Renderer {
       console.log(scraper_units);
       return scraper_units;
     }
+
     //return an error and tell the user that the supplier is not supported
     return "Supplier not supported";
   }
