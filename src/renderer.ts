@@ -77,7 +77,6 @@ export class Renderer {
       let scraper_units: string;
       scraper_units = await scraper.scrapeBoxdepotetUnits();
       console.log("finished scrape");
-      console.log(scraper_units);
       return scraper_units;
     }
 
