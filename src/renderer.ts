@@ -46,11 +46,11 @@ export class Renderer {
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      //check if the last run time is more than 10 minutes ago
+      //check if the last run time is more than 3 hours ago
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          10 * 60 * 1000 /*10 minutes*/
+          3 * 60 * 60 * 1000 /*3 hours*/
       ) {
         console.log("returning cached data");
         try {
