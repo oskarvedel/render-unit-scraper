@@ -51,10 +51,6 @@ export class Renderer {
         console.log(
           `current time: ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`
         );
-        console.log(
-          "difference in minutes: " +
-            (new Date().getTime() - new Date(lastRunTime).getTime()) / 1000 / 60
-        );
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }

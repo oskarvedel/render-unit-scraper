@@ -6,9 +6,8 @@ import "dotenv/config";
 //make the ts file understand that page and button are defined by puppeteer
 export class BoxdepotetScraper {
   async scrapeBoxdepotetUnits(): Promise<string> {
-    //create an render.com environment variable called BOXDEPOTET_SCRAPE_TIME
-    // process.env.BOXDEPOTET_SCRAPE_TIME = new Date().toISOString();
     fs.writeFileSync("scrape_time.txt", new Date().toISOString());
+    console.log("logged scrape time" + new Date().toISOString();
 
     const browser = await puppeteer.launch({
       headless: true,
