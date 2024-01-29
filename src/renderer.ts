@@ -40,10 +40,14 @@ export class Renderer {
       let lastRunTime;
       try {
         //read the file with the latest runtime
-        console.log("trying to read  latest runtimefile");
+        console.log("trying to read latest runtimefile");
         lastRunTime = fs.readFileSync("scrape_time.txt", "utf8");
         console.log("lastRunTime: " + new Date(lastRunTime).getTime());
-        console.log("current date: . " + new Date().getTime());
+        console.log("current time: " + new Date().getTime());
+        console.log(
+          "difference: " +
+            (new Date().getTime() - new Date(lastRunTime).getTime())
+        );
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
