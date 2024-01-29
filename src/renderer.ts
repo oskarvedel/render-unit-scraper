@@ -42,8 +42,15 @@ export class Renderer {
         //read the file with the latest runtime
         console.log("trying to read latest runtimefile");
         lastRunTime = fs.readFileSync("scrape_time.txt", "utf8");
-        console.log("lastRunTime: " + new Date(lastRunTime).getTime());
-        console.log("current time: " + new Date().getTime());
+        let lastRunDate = new Date(lastRunTime);
+        console.log(
+          `lastRunTime: ${lastRunDate.getHours()}:${lastRunDate.getMinutes()}:${lastRunDate.getSeconds()}`
+        );
+
+        let currentDate = new Date();
+        console.log(
+          `current time: ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`
+        );
         console.log(
           "difference in minutes: " +
             (new Date().getTime() - new Date(lastRunTime).getTime()) / 1000 / 60
