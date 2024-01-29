@@ -45,8 +45,8 @@ export class Renderer {
         console.log("lastRunTime: " + new Date(lastRunTime).getTime());
         console.log("current time: " + new Date().getTime());
         console.log(
-          "difference: " +
-            (new Date().getTime() - new Date(lastRunTime).getTime())
+          "difference in minutes: " +
+            (new Date().getTime() - new Date(lastRunTime).getTime()) / 1000 / 60
         );
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
