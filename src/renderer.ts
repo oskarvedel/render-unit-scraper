@@ -42,17 +42,18 @@ export class Renderer {
         //read the file with the latest runtime
         console.log("trying to read  latest runtimefile");
         lastRunTime = fs.readFileSync("scrape_time.txt", "utf8");
-        console.log("lastRunTime" + lastRunTime);
+        console.log("lastRunTime: " + new Date(lastRunTime).getTime());
+        console.log("current date: . " + new Date().getTime());
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      //check if the last run time is more than 3 hours ago
+      //check if the last run time is more than 10 minutes ago
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          3 * 60 * 60 * 1000 /*3 hours*/
+          10 * 60 * 1000 /*10 minutes*/
       ) {
-        console.log("returning cached data");
+        console.log("lastruntime within 10 minutes, returning cached data");
         try {
           //read the file
           console.log("trying to read file");
