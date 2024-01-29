@@ -7,7 +7,7 @@ import "dotenv/config";
 export class BoxdepotetScraper {
   async scrapeBoxdepotetUnits(): Promise<string> {
     fs.writeFileSync("scrape_time.txt", new Date().toISOString());
-    console.log("logged scrape time" + new Date().toISOString());
+    console.log("logged new scrape time: " + new Date().toISOString());
 
     const browser = await puppeteer.launch({
       headless: true,
