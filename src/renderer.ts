@@ -272,8 +272,22 @@ export class Renderer {
     });
     // Screenshot returns a buffer based on specified encoding above.
     // https://github.com/GoogleChrome/puppeteer/blob/v1.8.0/docs/api.md#pagescreenshotoptions
-    const buffer = (await page.screenshot(screenshotOptions)) as Buffer;
-    return buffer;
+    let buffer: Buffer | string | undefined;
+    try {
+      buffer = await page.screenshot(screenshotOptions as any);
+    } catch (error) {
+      console.error("Error taking screenshot:", error);
+    }
+
+    if (!buffer) {
+      throw new Error("Failed to capture screenshot");
+    }
+
+    if (typeof buffer === "string") {
+      return Buffer.from(buffer, "binary");
+    } else {
+      return buffer;
+    }
   }
 }
 
