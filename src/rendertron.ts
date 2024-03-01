@@ -7,6 +7,8 @@ import * as koaSend from "koa-send";
 import * as path from "path";
 import * as puppeteer from "puppeteer";
 import * as url from "url";
+import "dotenv/config";
+import { CitySelfStorageScraper } from "./cityselfstorage_article_scraper";
 
 import { Renderer, ScreenshotError } from "./renderer";
 import { Config, ConfigManager } from "./config";
@@ -66,6 +68,18 @@ export class Rendertron {
     this.app.use(
       route.get("/scrape/:supplier(.*)", this.handleScrapeRequest.bind(this))
     );
+
+    const scraper = new CitySelfStorageScraper();
+
+    // Call the method
+    scraper
+      .convertToJsonL()
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
 
     return this.app.listen(this.port, () => {
       console.log(`Listening on port ${this.port}`);
