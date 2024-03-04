@@ -1,0 +1,631 @@
+{
+  "url": "https://www.nettolager.dk/lagerhoteller/molledammen-11-agedrup/",
+  "unitData": [
+    {
+      "m2": "0,5 m2",
+      "m3": "0,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 100 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 226 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 226 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 226 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 226 kr./md."
+    },
+    {
+      "m2": "5,1 m2",
+      "m3": "5,1 m2",
+      "available": "(3 ledige rum)",
+      "price": "Normalpris 714 kr./md."
+    },
+    {
+      "m2": "5,4 m2",
+      "m3": "5,4 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 756 kr./md."
+    },
+    {
+      "m2": "6 m2",
+      "m3": "6 m2",
+      "available": "(3 ledige rum)",
+      "price": "Normalpris 840 kr./md."
+    },
+    {
+      "m2": "7,2 m2",
+      "m3": "7,2 m2",
+      "available": "(4 ledige rum)",
+      "price": "Normalpris 1008 kr./md."
+    },
+    {
+      "m2": "8,3 m2",
+      "m3": "8,3 m2",
+      "available": "(4 ledige rum)",
+      "price": "Normalpris 1162 kr./md."
+    },
+    {
+      "m2": "9,3 m2",
+      "m3": "9,3 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1302 kr./md."
+    },
+    {
+      "m2": "12,5 m2",
+      "m3": "12,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1750 kr./md."
+    },
+    {
+      "m2": "13,6 m2",
+      "m3": "13,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1904 kr./md."
+    }
+  ]
+},
+{
+  "url": "https://www.nettolager.dk/lagerhoteller/midtager-13-brondby/",
+  "unitData": [
+    {
+      "m2": "0,7 m2",
+      "m3": "0,7 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 142 kr./md."
+    },
+    {
+      "m2": "1 m2",
+      "m3": "1 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 190 kr./md."
+    },
+    {
+      "m2": "1,1 m2",
+      "m3": "1,1 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 206 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 254 kr./md."
+    },
+    {
+      "m2": "1,5 m2",
+      "m3": "1,5 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 286 kr./md."
+    },
+    {
+      "m2": "1,8 m2",
+      "m3": "1,8 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 318 kr./md."
+    },
+    {
+      "m2": "2,1 m2",
+      "m3": "2,1 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 366 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(30 ledige rum)",
+      "price": "Normalpris 414 kr./md."
+    },
+    {
+      "m2": "2,6 m2",
+      "m3": "2,6 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 446 kr./md."
+    },
+    {
+      "m2": "2,7 m2",
+      "m3": "2,7 m2",
+      "available": "(10 ledige rum)",
+      "price": "Normalpris 462 kr./md."
+    },
+    {
+      "m2": "2,8 m2",
+      "m3": "2,8 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 478 kr./md."
+    },
+    {
+      "m2": "2,9 m2",
+      "m3": "2,9 m2",
+      "available": "(11 ledige rum)",
+      "price": "Normalpris 494 kr./md."
+    },
+    {
+      "m2": "3 m2",
+      "m3": "3 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 510 kr./md."
+    },
+    {
+      "m2": "3,1 m2",
+      "m3": "3,1 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 526 kr./md."
+    },
+    {
+      "m2": "3,2 m2",
+      "m3": "3,2 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 542 kr./md."
+    },
+    {
+      "m2": "3,3 m2",
+      "m3": "3,3 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 558 kr./md."
+    },
+    {
+      "m2": "3,4 m2",
+      "m3": "3,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 574 kr./md."
+    },
+    {
+      "m2": "3,6 m2",
+      "m3": "3,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 606 kr./md."
+    },
+    {
+      "m2": "4,1 m2",
+      "m3": "4,1 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 656 kr./md."
+    },
+    {
+      "m2": "4,2 m2",
+      "m3": "4,2 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 672 kr./md."
+    },
+    {
+      "m2": "4,4 m2",
+      "m3": "4,4 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 704 kr./md."
+    },
+    {
+      "m2": "7 m2",
+      "m3": "7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1120 kr./md."
+    },
+    {
+      "m2": "28,5 m2",
+      "m3": "28,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 4560 kr./md."
+    }
+  ]
+},
+{
+  "url": "https://www.nettolager.dk/lagerhoteller/vallensbaekvej-47-brondby/",
+  "unitData": [
+    {
+      "m2": "0,5 m2",
+      "m3": "0,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 105 kr./md."
+    },
+    {
+      "m2": "0,7 m2",
+      "m3": "0,7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 135 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "1,6 m2",
+      "m3": "1,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 270 kr./md."
+    },
+    {
+      "m2": "7,4 m2",
+      "m3": "7,4 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1110 kr./md."
+    },
+    {
+      "m2": "7,5 m2",
+      "m3": "7,5 m2",
+      "available": "(7 ledige rum)",
+      "price": "Normalpris 1125 kr./md."
+    },
+    {
+      "m2": "8 m2",
+      "m3": "8 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1200 kr./md."
+    },
+    {
+      "m2": "8,2 m2",
+      "m3": "8,2 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1230 kr./md."
+    },
+    {
+      "m2": "8,6 m2",
+      "m3": "8,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1290 kr./md."
+    },
+    {
+      "m2": "8,9 m2",
+      "m3": "8,9 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1335 kr./md."
+    },
+    {
+      "m2": "9,2 m2",
+      "m3": "9,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1380 kr./md."
+    },
+    {
+      "m2": "9,3 m2",
+      "m3": "9,3 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1395 kr./md."
+    },
+    {
+      "m2": "10,6 m2",
+      "m3": "10,6 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1590 kr./md."
+    },
+    {
+      "m2": "10,7 m2",
+      "m3": "10,7 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1605 kr./md."
+    },
+    {
+      "m2": "11,6 m2",
+      "m3": "11,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1740 kr./md."
+    },
+    {
+      "m2": "11,7 m2",
+      "m3": "11,7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1755 kr./md."
+    },
+    {
+      "m2": "12,9 m2",
+      "m3": "12,9 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1935 kr./md."
+    },
+    {
+      "m2": "34 m2",
+      "m3": "34 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 5100 kr./md."
+    }
+  ]
+},
+{
+  "url": "https://www.nettolager.dk/lagerhoteller/kongstedvej-30-dianalund/",
+  "unitData": [
+    {
+      "m2": "0,5 m2",
+      "m3": "0,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 85 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 184 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 184 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 184 kr./md."
+    },
+    {
+      "m2": "1,4 m2",
+      "m3": "1,4 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 184 kr./md."
+    },
+    {
+      "m2": "6,3 m2",
+      "m3": "6,3 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 693 kr./md."
+    },
+    {
+      "m2": "8,5 m2",
+      "m3": "8,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 935 kr./md."
+    },
+    {
+      "m2": "8,8 m2",
+      "m3": "8,8 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 968 kr./md."
+    },
+    {
+      "m2": "9,8 m2",
+      "m3": "9,8 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1078 kr./md."
+    },
+    {
+      "m2": "9,9 m2",
+      "m3": "9,9 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1089 kr./md."
+    },
+    {
+      "m2": "10 m2",
+      "m3": "10 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1100 kr./md."
+    },
+    {
+      "m2": "11,5 m2",
+      "m3": "11,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1265 kr./md."
+    },
+    {
+      "m2": "11,7 m2",
+      "m3": "11,7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1287 kr./md."
+    },
+    {
+      "m2": "14,3 m2",
+      "m3": "14,3 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1573 kr./md."
+    },
+    {
+      "m2": "16 m2",
+      "m3": "16 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1760 kr./md."
+    }
+  ]
+},
+{
+  "url": "https://www.nettolager.dk/lagerhoteller/elmegade-6-ejby/",
+  "unitData": [
+    {
+      "m2": "0,5 m2",
+      "m3": "0,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 85 kr./md."
+    },
+    {
+      "m2": "0,5 m2",
+      "m3": "0,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 85 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "2,2 m2",
+      "m3": "2,2 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 272 kr./md."
+    },
+    {
+      "m2": "2,4 m2",
+      "m3": "2,4 m2",
+      "available": "(6 ledige rum)",
+      "price": "Normalpris 294 kr./md."
+    },
+    {
+      "m2": "8,3 m2",
+      "m3": "8,3 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 913 kr./md."
+    },
+    {
+      "m2": "8,6 m2",
+      "m3": "8,6 m2",
+      "available": "(3 ledige rum)",
+      "price": "Normalpris 946 kr./md."
+    },
+    {
+      "m2": "8,7 m2",
+      "m3": "8,7 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 957 kr./md."
+    },
+    {
+      "m2": "9,3 m2",
+      "m3": "9,3 m2",
+      "available": "(2 ledige rum)",
+      "price": "Normalpris 1023 kr./md."
+    },
+    {
+      "m2": "10 m2",
+      "m3": "10 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1100 kr./md."
+    },
+    {
+      "m2": "10,1 m2",
+      "m3": "10,1 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1111 kr./md."
+    },
+    {
+      "m2": "10,5 m2",
+      "m3": "10,5 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1155 kr./md."
+    },
+    {
+      "m2": "10,6 m2",
+      "m3": "10,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1166 kr./md."
+    },
+    {
+      "m2": "10,7 m2",
+      "m3": "10,7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1177 kr./md."
+    },
+    {
+      "m2": "11,9 m2",
+      "m3": "11,9 m2",
+      "available": "(1 ledige rum)",
+      "price": "Normalpris 1309 kr./md."
+    },
+    {
+      "m2": "12,2 m2",
+      "m3": "12,2 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1342 kr./md."
+    },
+    {
+      "m2": "13,6 m2",
+      "m3": "13,6 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 1496 kr./md."
+    },
+    {
+      "m2": "20,7 m2",
+      "m3": "20,7 m2",
+      "available": "(0 ledige rum)",
+      "price": "Normalpris 2277 kr./md."
+    }
+  ]
+},

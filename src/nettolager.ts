@@ -7,7 +7,7 @@ import { promisify } from "util";
 export class NettolagerScraper {
   async scrapeNettoLagerUnits(): Promise<string> {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
     });
 
     const page = await browser.newPage();
@@ -31,6 +31,8 @@ export class NettolagerScraper {
 
     const allLocationsUnitData = [];
 
+    // var counter = 0;
+
     for (let url of departmentUrls) {
       const page = await browser.newPage(); // Create a new page for each URL
       await page.setViewport({ width: 1280, height: 800 }); // Set the window size
@@ -46,6 +48,11 @@ export class NettolagerScraper {
 
       await page.close(); // Close the department page
       await waitForTimeout(1000); // Delay before navigating to the next page
+      // counter += 1;
+
+      // if (counter > 4) {
+      //   break;
+      // }
     }
 
     await browser.close(); // Close the browser
