@@ -72,9 +72,6 @@ export class BoxdepotetScraper {
       2
     );
 
-    fs.writeFileSync("scrape_time_nettolager.txt", new Date().toISOString());
-    console.log("logged new scrape time: " + new Date().toISOString());
-
     // Save the JSON data to a file
     fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
 

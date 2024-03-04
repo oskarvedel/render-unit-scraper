@@ -5,14 +5,25 @@ import "dotenv/config";
 
 export class NettolagerScraper {
   async scrapeNettoLagerUnits(): Promise<string> {
-    fs.writeFileSync("scrape_time_nettolager.txt", new Date().toISOString());
-    console.log("logged new scrape time: " + new Date().toISOString());
-
     const browser = await puppeteer.launch({
       headless: true,
     });
 
     const page = await browser.newPage();
+
+    // await page.setRequestInterception(true);
+    // page.on("request", (req) => {
+    //   if (
+    //     // req.resourceType() === "stylesheet" ||
+    //     req.resourceType() === "font" ||
+    //     req.resourceType() === "image"
+    //   ) {
+    //     req.abort();
+    //   } else {
+    //     req.continue();
+    //   }
+    // });
+
     await page.setViewport({ width: 1280, height: 800 }); // Set the window size
     await page.goto("https://www.nettolager.dk/lagerhoteller/"); // Main page URL
 
@@ -50,6 +61,9 @@ export class NettolagerScraper {
       2
     );
 
+    fs.writeFileSync("scrape_time_nettolager.txt", new Date().toISOString());
+    console.log("logged new scrape time: " + new Date().toISOString());
+
     // Save the JSON data to a file
     fs.writeFileSync("nettolager.json", allLocationsUnitDataJson);
 
@@ -65,7 +79,11 @@ export class NettolagerScraper {
     );
 
     for (let i = 0; i < sizeButtons.length; i++) {
-      await sizeButtons[i].hover();
+      try {
+        await sizeButtons[i].hover();
+      } catch (error) {
+        console.error("Failed to hover over element:", error);
+      }
       await sizeButtons[i].click();
 
       await page.waitForSelector(".room-list-item", { visible: true });

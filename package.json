@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "prepack": "npm run build",
-    "start": "node build/rendertron.js",
+    "start": "node -max-old-space-size=4096 build/rendertron.js",
     "format": "find src -name '*.ts' | xargs clang-format --style=file -i",
     "lint": "tslint --project . --format stylish",
     "monitor": "nodemon",

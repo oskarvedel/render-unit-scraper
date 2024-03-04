@@ -80,6 +80,9 @@ export class Renderer {
           "last run time is more than 10 minutes ago, running scraper"
         );
       }
+      //delete the scraped data file
+      fs.unlinkSync("boxdepotet.json");
+
       //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
@@ -132,6 +135,7 @@ export class Renderer {
           "last run time is more than 10 minutes ago, running scraper"
         );
       }
+      fs.unlinkSync("nettolager.json");
       //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new NettolagerScraper();
       //declare units object of type JSON

@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch Rendertron",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/build/rendertron.js",
       "preLaunchTask": "build"
