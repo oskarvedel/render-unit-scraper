@@ -2,27 +2,15 @@ import * as puppeteer from "puppeteer";
 import * as fs from "fs";
 import { Page } from "puppeteer";
 import "dotenv/config";
+import { promisify } from "util";
 
 export class NettolagerScraper {
   async scrapeNettoLagerUnits(): Promise<string> {
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
     });
 
     const page = await browser.newPage();
-
-    // await page.setRequestInterception(true);
-    // page.on("request", (req) => {
-    //   if (
-    //     // req.resourceType() === "stylesheet" ||
-    //     req.resourceType() === "font" ||
-    //     req.resourceType() === "image"
-    //   ) {
-    //     req.abort();
-    //   } else {
-    //     req.continue();
-    //   }
-    // });
 
     await page.setViewport({ width: 1280, height: 800 }); // Set the window size
     await page.goto("https://www.nettolager.dk/lagerhoteller/"); // Main page URL
@@ -39,20 +27,28 @@ export class NettolagerScraper {
       (anchors) => anchors.map((anchor) => (anchor as HTMLAnchorElement).href)
     );
 
+    const waitForTimeout = promisify(setTimeout);
+
     const allLocationsUnitData = [];
 
-    // var counter = 0;
     for (let url of departmentUrls) {
+      const page = await browser.newPage(); // Create a new page for each URL
+      await page.setViewport({ width: 1280, height: 800 }); // Set the window size
       await page.goto(url);
-
-      // if (counter === 15) {
-      // }
 
       const unitData = await this.extractUnitData(page);
 
       allLocationsUnitData.push({ url, unitData });
-      // counter++;
+
+      // Convert unitData to JSON and write it to a file
+      const unitDataJson = JSON.stringify({ url, unitData }, null, 2);
+      fs.appendFileSync("nettolager.json", unitDataJson + ",\n");
+
+      await page.close(); // Close the department page
+      await waitForTimeout(1000); // Delay before navigating to the next page
     }
+
+    await browser.close(); // Close the browser
 
     // Convert allLocationsUnitData to JSON
     const allLocationsUnitDataJson = JSON.stringify(
@@ -61,16 +57,12 @@ export class NettolagerScraper {
       2
     );
 
-    fs.writeFileSync("scrape_time_nettolager.txt", new Date().toISOString());
-    console.log("logged new scrape time: " + new Date().toISOString());
-
     // Save the JSON data to a file
-    fs.writeFileSync("nettolager.json", allLocationsUnitDataJson);
+    // fs.writeFileSync("nettolager.json", allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
   }
 
-  // Function to extract data from each department page
   async extractUnitData(page: Page) {
     const allUnitData = [];
 
@@ -103,7 +95,6 @@ export class NettolagerScraper {
     return allUnitData;
   }
 
-  // Function to extract data from the room list
   async extractRoomData(page: Page) {
     const rooms = await page.$$(".room-list-item");
     const roomData = [];

@@ -11,6 +11,7 @@ import "dotenv/config";
 
 import { Renderer, ScreenshotError } from "./renderer";
 import { Config, ConfigManager } from "./config";
+// import { PelicanScraper } from "./pelican";
 
 /**
  * Rendertron rendering service. This runs the server which routes rendering
@@ -68,6 +69,10 @@ export class Rendertron {
     this.app.use(
       route.get("/scrape/:supplier(.*)", this.handleScrapeRequest.bind(this))
     );
+
+    //run the pelican scraper on startup
+    // const pelicanScraper = new PelicanScraper();
+    // pelicanScraper.scrapePelicanUnits();
 
     return this.app.listen(this.port, () => {
       console.log(`Listening on port ${this.port}`);

@@ -3,6 +3,7 @@ import * as url from "url";
 import * as fs from "fs";
 import { BoxdepotetScraper } from "./boxdepotet";
 import { NettolagerScraper } from "./nettolager";
+// import { PelicanScraper } from "./pelican";
 
 import { Config } from "./config";
 
@@ -149,10 +150,13 @@ export class Renderer {
       }
       fs.unlink("nettolager.json", (err) => {
         if (err) {
-          if (err.code === 'ENOENT') {
+          if (err.code === "ENOENT") {
             console.error("File doesn't exist, won't try to delete it.");
           } else {
-            console.error("An error occurred while trying to delete the file:", err);
+            console.error(
+              "An error occurred while trying to delete the file:",
+              err
+            );
           }
         } else {
           console.log("File deleted successfully");
