@@ -127,6 +127,7 @@ export class Rendertron {
   }
 
   async handleScreenshotRequest(ctx: Koa.Context, url: string) {
+    console.log("service awoken via screenshot request");
     if (!this.renderer) {
       throw new Error("No renderer initalized yet.");
     }
