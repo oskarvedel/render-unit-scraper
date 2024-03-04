@@ -81,7 +81,19 @@ export class Renderer {
         );
       }
       //delete the scraped data file
-      fs.unlinkSync("boxdepotet.json");
+      fs.unlink("boxdepotet.json", (err) => {
+        if (err) {
+          if (err.code === "ENOENT") {
+          } else {
+            console.error(
+              "An error occurred while trying to delete the file:",
+              err
+            );
+          }
+        } else {
+          console.log("File deleted successfully");
+        }
+      });
 
       //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new BoxdepotetScraper();
@@ -135,7 +147,17 @@ export class Renderer {
           "last run time is more than 10 minutes ago, running scraper"
         );
       }
-      fs.unlinkSync("nettolager.json");
+      fs.unlink("nettolager.json", (err) => {
+        if (err) {
+          if (err.code === 'ENOENT') {
+            console.error("File doesn't exist, won't try to delete it.");
+          } else {
+            console.error("An error occurred while trying to delete the file:", err);
+          }
+        } else {
+          console.log("File deleted successfully");
+        }
+      });
       //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new NettolagerScraper();
       //declare units object of type JSON
