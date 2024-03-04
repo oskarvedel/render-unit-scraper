@@ -30,7 +30,7 @@ export class NettolagerScraper {
 
     const allLocationsUnitData = [];
 
-    var counter = 0;
+    // var counter = 0;
     for (let url of departmentUrls) {
       await page.goto(url);
 
@@ -40,7 +40,7 @@ export class NettolagerScraper {
       const unitData = await this.extractUnitData(page);
 
       allLocationsUnitData.push({ url, unitData });
-      counter++;
+      // counter++;
     }
 
     // Convert allLocationsUnitData to JSON
