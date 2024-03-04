@@ -8,7 +8,6 @@ import * as path from "path";
 import * as puppeteer from "puppeteer";
 import * as url from "url";
 import "dotenv/config";
-import { CitySelfStorageScraper } from "./cityselfstorage_article_scraper";
 
 import { Renderer, ScreenshotError } from "./renderer";
 import { Config, ConfigManager } from "./config";
@@ -24,6 +23,7 @@ export class Rendertron {
   private port = process.env.PORT;
 
   async initialize() {
+    console.log("Initializing Rendertron");
     // Load config
     this.config = await ConfigManager.getConfiguration();
 
@@ -69,23 +69,10 @@ export class Rendertron {
       route.get("/scrape/:supplier(.*)", this.handleScrapeRequest.bind(this))
     );
 
-    const scraper = new CitySelfStorageScraper();
-
-    // Call the method
-    scraper
-      .convertToJsonL()
-      .then((result) => {
-        console.log(result);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-
     return this.app.listen(this.port, () => {
       console.log(`Listening on port ${this.port}`);
     });
   }
-
   /**
    * Checks whether or not the URL is valid. For example, we don't want to allow
    * the requester to read the file system via Chrome.

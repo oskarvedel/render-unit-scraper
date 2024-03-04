@@ -21,6 +21,7 @@
     "./src/scrapers/*.js",
     "./src/scrapers/*.d.ts",
     "src/boxdepotet.ts",
+    "src/nettolager.ts",
     "src/**/*.ts"
   ]
 }

@@ -2,6 +2,7 @@ import * as puppeteer from "puppeteer";
 import * as url from "url";
 import * as fs from "fs";
 import { BoxdepotetScraper } from "./boxdepotet";
+import { NettolagerScraper } from "./nettolager";
 
 import { Config } from "./config";
 
@@ -41,7 +42,7 @@ export class Renderer {
       try {
         //read the file with the latest runtime
         console.log("trying to read latest runtimefile");
-        lastRunTime = fs.readFileSync("scrape_time.txt", "utf8");
+        lastRunTime = fs.readFileSync("scrape_time_boxdepotet.txt", "utf8");
         let lastRunDate = new Date(lastRunTime);
         console.log(
           `lastRunTime: ${lastRunDate.getHours()}:${lastRunDate.getMinutes()}:${lastRunDate.getSeconds()}`
@@ -84,6 +85,58 @@ export class Renderer {
       //declare units object of type JSON
       let scraper_units: string;
       scraper_units = await scraper.scrapeBoxdepotetUnits();
+      console.log("finished scrape");
+      return scraper_units;
+    }
+    if (supplier === "nettolager") {
+      console.log("getting nettolager scraper data");
+      let lastRunTime;
+      try {
+        //read the file with the latest runtime
+        console.log("trying to read latest runtimefile");
+        lastRunTime = fs.readFileSync("scrape_time_nettolager.txt", "utf8");
+        let lastRunDate = new Date(lastRunTime);
+        console.log(
+          `lastRunTime: ${lastRunDate.getHours()}:${lastRunDate.getMinutes()}:${lastRunDate.getSeconds()}`
+        );
+
+        let currentDate = new Date();
+        console.log(
+          `current time: ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`
+        );
+      } catch (err) {
+        console.error("An error occurred while reading the file:", err);
+      }
+      //check if the last run time is more than 10 minutes ago
+      if (
+        lastRunTime !== undefined &&
+        new Date().getTime() - new Date(lastRunTime).getTime() <
+          10 * 60 * 1000 /*10 minutes*/
+      ) {
+        console.log("lastruntime within 10 minutes, returning cached data");
+        try {
+          //read the file
+          console.log("trying to read file");
+          file_data = fs.readFileSync("nettolager.json", "utf8");
+          //parse the file into JSON
+          file_data_units = JSON.parse(file_data);
+        } catch (err) {
+          console.error("An error occurred while reading the file:", err);
+        }
+        if (file_data_units !== null) {
+          console.log("returning file_data_units");
+          return file_data_units;
+        }
+      } else {
+        console.log(
+          "last run time is more than 10 minutes ago, running scraper"
+        );
+      }
+      //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
+      const scraper = new NettolagerScraper();
+      //declare units object of type JSON
+      let scraper_units: string;
+      scraper_units = await scraper.scrapeNettoLagerUnits();
       console.log("finished scrape");
       return scraper_units;
     }
