@@ -230,6 +230,7 @@ export class Renderer {
         }
       });
       //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
+      console.log("running pelican scraper");
       const scraper = new PelicanScraper();
       //declare units object of type JSON
       let scraper_units: string;
