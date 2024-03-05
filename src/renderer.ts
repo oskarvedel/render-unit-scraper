@@ -57,13 +57,13 @@ export class Renderer {
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      //check if the last run time is more than 10 minutes ago
+      //check if the last run time is more than 40 minutes ago
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          10 * 60 * 1000 /*10 minutes*/
+          40 * 60 * 1000 /*40 minutes*/
       ) {
-        console.log("lastruntime within 10 minutes, returning cached data");
+        console.log("lastruntime within 40 minutes, returning cached data");
         try {
           //read the file
           console.log("trying to read file");
@@ -79,7 +79,7 @@ export class Renderer {
         }
       } else {
         console.log(
-          "last run time is more than 10 minutes ago, running scraper"
+          "last run time is more than 40 minutes ago, running scraper"
         );
       }
       //delete the scraped data file
@@ -97,7 +97,7 @@ export class Renderer {
         }
       });
 
-      //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
+      //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new BoxdepotetScraper();
       //declare units object of type JSON
       let scraper_units: string;
@@ -124,17 +124,17 @@ export class Renderer {
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      //check if the last run time is more than 10 minutes ago
+      //check if the last run time is more than 40 minutes ago
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          10 * 60 * 1000 /*10 minutes*/
+          40 * 60 * 1000 /*40 minutes*/
       ) {
-        console.log("lastruntime within 10 minutes, returning cached data");
+        console.log("lastruntime within 40 minutes, returning cached data");
         try {
           //read the file
           console.log("trying to read file");
-          file_data = fs.readFileSync("nettolager.json", "utf8");
+          file_data = fs.readFileSync("pelican.json", "utf8");
           //parse the file into JSON
           file_data_units = JSON.parse(file_data);
         } catch (err) {
@@ -146,7 +146,7 @@ export class Renderer {
         }
       } else {
         console.log(
-          "last run time is more than 10 minutes ago, running scraper"
+          "last run time is more than 40 minutes ago, running scraper"
         );
       }
       fs.unlink("nettolager.json", (err) => {
@@ -163,7 +163,7 @@ export class Renderer {
           console.log("File deleted successfully");
         }
       });
-      //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
+      //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
       const scraper = new NettolagerScraper();
       //declare units object of type JSON
       let scraper_units: string;
@@ -190,13 +190,13 @@ export class Renderer {
       } catch (err) {
         console.error("An error occurred while reading the file:", err);
       }
-      //check if the last run time is more than 10 minutes ago
+      //check if the last run time is more than 40 minutes ago
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          10 * 60 * 1000 /*10 minutes*/
+          40 * 60 * 1000 /*40 minutes*/
       ) {
-        console.log("lastruntime within 10 minutes, returning cached data");
+        console.log("lastruntime within 40 minutes, returning cached data");
         try {
           //read the file
           console.log("trying to read file");
@@ -212,7 +212,7 @@ export class Renderer {
         }
       } else {
         console.log(
-          "last run time is more than 10 minutes ago, running scraper"
+          "last run time is more than 40 minutes ago, running scraper"
         );
       }
       fs.unlink("pelican.json", (err) => {
@@ -229,7 +229,7 @@ export class Renderer {
           console.log("File deleted successfully");
         }
       });
-      //if the last run time is more than 10 minutes ago, or if the file_data_units is null, then run the scraper
+      //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
       console.log("running pelican scraper");
       const scraper = new PelicanScraper();
       //declare units object of type JSON

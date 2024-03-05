@@ -1367,14 +1367,6 @@
         "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=1092&department_id=3"
       },
       {
-        "roomNumber": "#348",
-        "price": "297 kr.",
-        "cubicMeters": "5,40 m3",
-        "squareMeters": "1,93 m2",
-        "availability": "Ledig fra d. 16-03-2024",
-        "bookUrl": "https://boxdepotet.dk/bookingflow/?step=2&room_id=1089&department_id=3"
-      },
-      {
         "roomNumber": "#686",
         "price": "319 kr.",
         "cubicMeters": "5,80 m3",
