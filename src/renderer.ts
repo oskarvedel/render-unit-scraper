@@ -93,7 +93,7 @@ export class Renderer {
             );
           }
         } else {
-          console.log("File deleted successfully");
+          console.log("old scrape file deleted successfully");
         }
       });
 
@@ -160,7 +160,7 @@ export class Renderer {
             );
           }
         } else {
-          console.log("File deleted successfully");
+          console.log("old scrape file deleted successfully");
         }
       });
       //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
@@ -226,7 +226,7 @@ export class Renderer {
             );
           }
         } else {
-          console.log("File deleted successfully");
+          console.log("old scrape file deleted successfully");
         }
       });
       //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
