@@ -194,7 +194,7 @@ export class Renderer {
       if (
         lastRunTime !== undefined &&
         new Date().getTime() - new Date(lastRunTime).getTime() <
-          40 * 60 * 1000 /*40 minutes*/
+          0.1 * 60 * 1000 /*40 minutes*/
       ) {
         console.log("lastruntime within 40 minutes, returning cached data");
         try {

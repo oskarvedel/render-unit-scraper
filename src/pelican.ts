@@ -11,7 +11,7 @@ export class PelicanScraper {
 
     const browser = await puppeteer.launch({
       headless: true,
-      timeout: 30000,
+      timeout: 15000,
     });
 
     const page = await browser.newPage();
@@ -83,11 +83,9 @@ export class PelicanScraper {
       const link = await hrefHandle.jsonValue();
 
       // Extract the size
-      const m2size = await room.$eval(".size", (div: Element) =>
-        (div as HTMLElement).innerText.trim()
+      const m2size = await room.$eval(".size span", (span: Element) =>
+        (span as HTMLElement).innerText.trim()
       );
-
-      var available = 1;
 
       let introPeriod = null;
       const introPriceSpans = await room.$$(".intro.price span");
@@ -98,20 +96,23 @@ export class PelicanScraper {
         introPeriod = introPeriod.trim();
       }
 
+      var available = 1;
+
       const introPriceElement = await room.$(".intro.price");
       let introPrice = null;
       if (introPriceElement !== null) {
-        introPrice = await introPriceElement.$$eval("em", (ems: Element[]) => {
-          if (ems.length === 0) {
-            return "";
-          }
-          const element = ems[0] as HTMLElement;
-          if (element.classList.contains("limited-or-soldout")) {
+        const emElements = await introPriceElement.$$("em");
+        for (const emElement of emElements) {
+          const className = await emElement.getProperty("className");
+          const innerText = await emElement.getProperty("innerText");
+          if ((await className.jsonValue()).includes("limited-or-soldout")) {
             available = 0;
-            return "";
+            introPrice = "";
+            break;
+          } else {
+            introPrice = await innerText.jsonValue();
           }
-          return element.innerText.trim();
-        });
+        }
       }
 
       // Extract the regular price
