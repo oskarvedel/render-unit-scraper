@@ -83,9 +83,12 @@ export class PelicanScraper {
       const link = await hrefHandle.jsonValue();
 
       // Extract the size
-      const m2size = await room.$eval(".size span", (span: Element) =>
-        (span as HTMLElement).innerText.trim()
+      const sizeText = await room.$eval(".size", (div: Element) =>
+        (div as HTMLElement).innerText.trim()
       );
+
+      const sizeMatch = sizeText.match(/(\d+)\s*m2/);
+      const m2size = sizeMatch ? sizeMatch[0] : null;
 
       let introPeriod = null;
       const introPriceSpans = await room.$$(".intro.price span");
@@ -122,6 +125,10 @@ export class PelicanScraper {
         price = await regularPriceElement.$eval("em", (em: Element) =>
           (em as HTMLElement).innerText.trim()
         );
+      }
+
+      if (price === "Kontakt os") {
+        price = "";
       }
 
       // Add the extracted data to the roomData array

@@ -5,7 +5,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "175 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9306",
@@ -13,7 +13,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "275 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9311",
@@ -21,7 +21,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "385 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9326",
@@ -29,7 +29,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "465 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9336",
@@ -37,7 +37,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "650 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9346",
@@ -45,7 +45,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "820 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9361",
@@ -53,7 +53,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "955 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9366",
@@ -61,7 +61,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "1.125 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9386",
@@ -69,7 +69,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "1.260 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9416",
@@ -77,7 +77,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.760 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9426",
@@ -85,7 +85,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "2.195 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9441",
@@ -93,7 +93,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "2.275 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9451",
@@ -101,7 +101,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "2.605 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9461",
@@ -109,24 +109,24 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5076/9471",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "40 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5076/9481",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "50 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5076/9486",
         "introPrice": "",
@@ -140,7 +140,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "225 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11331",
@@ -148,7 +148,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "325 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11336",
@@ -156,7 +156,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "420 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11296",
@@ -164,7 +164,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "470 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11341",
@@ -172,7 +172,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "585 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11346",
@@ -180,7 +180,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "690 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11301",
@@ -188,7 +188,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "8 m2",
         "price": "785 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11486",
@@ -196,7 +196,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "805 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11356",
@@ -204,7 +204,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.080 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11306",
@@ -212,7 +212,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.265 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11361",
@@ -220,7 +220,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "20 m2",
         "price": "1.985 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/11281/11421",
@@ -228,7 +228,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "25 m2",
         "price": "2.125 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11526",
@@ -236,7 +236,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "25 m2",
         "price": "2.285 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/11281/11426",
@@ -244,7 +244,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "55 m2",
         "price": "4.390 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/11281/11701",
@@ -252,7 +252,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "65 m2",
         "price": "5.005 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/11281/11571",
@@ -260,128 +260,128 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "75 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/12171",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "1 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11291",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "11 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11496",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11311",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "21 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11521",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "30 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11691",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "34 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11536",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "35 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11696",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "35 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11431",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "75 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11436",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "80 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11411",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "85 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11441",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "90 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11616",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "100 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11621",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "135 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11576",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "135 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11281/11631",
         "introPrice": "",
@@ -395,7 +395,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "205 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8951",
@@ -403,7 +403,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "315 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8956",
@@ -411,7 +411,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "330 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8971",
@@ -419,7 +419,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "355 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8981",
@@ -427,7 +427,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "475 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8991",
@@ -435,7 +435,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "590 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9011",
@@ -443,7 +443,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "630 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9031",
@@ -451,7 +451,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "675 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9041",
@@ -459,7 +459,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "765 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9071",
@@ -467,7 +467,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.020 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9091",
@@ -475,7 +475,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "16 m2",
         "price": "1.630 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9161",
@@ -483,7 +483,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "1.545 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/61/9186",
@@ -491,80 +491,80 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "75 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/8931",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "12 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9116",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "15 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9141",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9181",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "20 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9211",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "20 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9206",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "22 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9241",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "22 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9246",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9266",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "40 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/61/9276",
         "introPrice": "",
@@ -578,7 +578,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "120 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11606",
@@ -586,7 +586,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "195 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10751",
@@ -594,7 +594,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "280 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10756",
@@ -602,7 +602,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "315 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10771",
@@ -610,7 +610,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "445 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10786",
@@ -618,7 +618,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "610 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10811",
@@ -626,7 +626,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "700 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10826",
@@ -634,7 +634,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "745 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10841",
@@ -642,7 +642,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "1.040 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10856",
@@ -650,7 +650,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.485 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10901",
@@ -658,7 +658,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "13 m2",
         "price": "1.720 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10906",
@@ -666,7 +666,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.695 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10926",
@@ -674,40 +674,40 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "4 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5101/10801",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "10 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5101/10886",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5101/10941",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5101/10946",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "30 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5101/10956",
         "introPrice": "",
@@ -721,7 +721,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "165 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11146",
@@ -729,7 +729,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "230 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11151",
@@ -737,7 +737,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "290 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11156",
@@ -745,7 +745,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "385 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11161",
@@ -753,7 +753,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "495 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11166",
@@ -761,7 +761,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "615 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11171",
@@ -769,7 +769,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "675 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11176",
@@ -777,7 +777,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "730 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11181",
@@ -785,7 +785,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.080 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11191",
@@ -793,7 +793,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.230 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11196",
@@ -801,7 +801,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.465 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11201",
@@ -809,48 +809,48 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "75 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11596",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "9 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11186",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11261",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "21 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11266",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "27 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11216",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "30 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/11136/11221",
         "introPrice": "",
@@ -864,7 +864,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "125 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12511",
@@ -872,7 +872,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "170 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12516",
@@ -880,7 +880,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "200 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12521",
@@ -888,7 +888,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "300 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12526",
@@ -896,7 +896,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "370 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12531",
@@ -904,7 +904,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "445 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12541",
@@ -912,7 +912,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "530 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12551",
@@ -920,7 +920,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "7 m2",
         "price": "605 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12556",
@@ -928,7 +928,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "625 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12566",
@@ -936,7 +936,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "8 m2",
         "price": "730 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12571",
@@ -944,7 +944,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "775 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12581",
@@ -952,7 +952,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "890 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12761",
@@ -960,7 +960,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "20 m2",
         "price": "1.595 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12596",
@@ -968,64 +968,64 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "10 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12751",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "11 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12756",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "15 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12766",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "16 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12771",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12776",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "32 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12601",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "60 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12796",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "120 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12501/12801",
         "introPrice": "",
@@ -1039,7 +1039,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "160 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10636",
@@ -1047,7 +1047,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "200 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10641",
@@ -1055,7 +1055,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "270 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10646",
@@ -1063,7 +1063,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "440 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10651",
@@ -1071,7 +1071,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "545 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10656",
@@ -1079,7 +1079,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "670 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10661",
@@ -1087,7 +1087,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "805 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10666",
@@ -1095,7 +1095,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "850 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10671",
@@ -1103,7 +1103,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "1.145 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10676",
@@ -1111,7 +1111,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.305 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10686",
@@ -1119,7 +1119,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.540 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10701",
@@ -1127,7 +1127,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.575 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10706",
@@ -1135,7 +1135,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "1.825 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10716",
@@ -1143,24 +1143,24 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "21 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5096/10721",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "24 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5096/11126",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "27 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5096/11891",
         "introPrice": "",
@@ -1174,7 +1174,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "60 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12211",
@@ -1182,7 +1182,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "140 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12076",
@@ -1190,7 +1190,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "180 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12086",
@@ -1198,7 +1198,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "225 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12091",
@@ -1206,7 +1206,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "320 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12096",
@@ -1214,7 +1214,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "390 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12101",
@@ -1222,7 +1222,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "475 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12106",
@@ -1230,7 +1230,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "635 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12111",
@@ -1238,7 +1238,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "675 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12116",
@@ -1246,7 +1246,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "770 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12126",
@@ -1254,7 +1254,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "785 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12131",
@@ -1262,7 +1262,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "930 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12136",
@@ -1270,7 +1270,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.235 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12141",
@@ -1278,7 +1278,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "1.590 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12146",
@@ -1286,16 +1286,16 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "21 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12071/12151",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/12071/12156",
         "introPrice": "",
@@ -1309,7 +1309,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "80 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11581",
@@ -1317,7 +1317,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "205 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9576",
@@ -1325,7 +1325,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "270 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9606",
@@ -1333,7 +1333,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "360 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9631",
@@ -1341,7 +1341,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "425 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9651",
@@ -1349,7 +1349,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "510 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9681",
@@ -1357,7 +1357,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "710 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9701",
@@ -1365,7 +1365,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "690 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9716",
@@ -1373,7 +1373,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "925 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9751",
@@ -1381,7 +1381,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "900 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9771",
@@ -1389,7 +1389,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "930 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9791",
@@ -1397,7 +1397,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.435 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5081/12001",
@@ -1405,7 +1405,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.080 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9821",
@@ -1413,7 +1413,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "1.415 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9851",
@@ -1421,7 +1421,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "20 m2",
         "price": "2.020 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5081/12006",
@@ -1429,7 +1429,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "21 m2",
         "price": "1.390 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9876",
@@ -1437,7 +1437,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "23 m2",
         "price": "2.085 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5081/12011",
@@ -1445,7 +1445,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "24 m2",
         "price": "1.610 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9886",
@@ -1453,7 +1453,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "26 m2",
         "price": "2.195 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5081/12016",
@@ -1461,64 +1461,64 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "1 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/9566",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/9736",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "16 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/9836",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/9896",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "45 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/12021",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "50 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/12026",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "65 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/12061",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "75 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5081/12066",
         "introPrice": "",
@@ -1532,7 +1532,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "85 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11601",
@@ -1540,7 +1540,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "155 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10256",
@@ -1548,7 +1548,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "205 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10261",
@@ -1556,7 +1556,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "275 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10286",
@@ -1564,7 +1564,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "335 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10311",
@@ -1572,7 +1572,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "375 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10326",
@@ -1580,7 +1580,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "415 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10341",
@@ -1588,7 +1588,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "455 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10366",
@@ -1596,7 +1596,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "740 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10376",
@@ -1604,7 +1604,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "795 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10416",
@@ -1612,7 +1612,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.255 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10436",
@@ -1620,7 +1620,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.160 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10466",
@@ -1628,7 +1628,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "14 m2",
         "price": "1.650 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/12656",
@@ -1636,7 +1636,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "2.050 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5091/10506",
@@ -1644,104 +1644,104 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "13 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10476",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "15 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10501",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "16 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10516",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "17 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10526",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10556",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10551",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "19 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/12661",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "20 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10581",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "22 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10591",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10596",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "24 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10611",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "25 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/12666",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "30 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5091/10621",
         "introPrice": "",
@@ -1755,7 +1755,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "85 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8536",
@@ -1763,7 +1763,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "265 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8551",
@@ -1771,7 +1771,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "335 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8556",
@@ -1779,7 +1779,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "395 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8576",
@@ -1787,7 +1787,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "585 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8596",
@@ -1795,7 +1795,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "700 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8636",
@@ -1803,7 +1803,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "800 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8651",
@@ -1811,7 +1811,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "1.015 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8671",
@@ -1819,7 +1819,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "1.230 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8676",
@@ -1827,7 +1827,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "1.435 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8701",
@@ -1835,7 +1835,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "1.540 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8711",
@@ -1843,7 +1843,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.575 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8731",
@@ -1851,7 +1851,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "15 m2",
         "price": "1.840 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8766",
@@ -1859,7 +1859,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "17 m2",
         "price": "2.415 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/56/8781",
@@ -1867,7 +1867,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "2.215 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8796",
@@ -1875,7 +1875,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "25 m2",
         "price": "4.009 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/56/12336",
@@ -1883,7 +1883,7 @@
         "introPeriod": null
       },
       {
-        "m2size": "m2",
+        "m2size": "40 m2",
         "price": "3.845 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/8871",
@@ -1891,104 +1891,104 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8606",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8656",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "11 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8721",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "13 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8741",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "14 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8751",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "17 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8776",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "20 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8816",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "21 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8831",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "22 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/8841",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "35 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/12236",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "45 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/12246",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "55 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/12341",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "60 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/56/12251",
         "introPrice": "",
@@ -2002,7 +2002,7 @@
     },
     "unitList": [
       {
-        "m2size": "m2",
+        "m2size": "75 m2",
         "price": "140 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/11586",
@@ -2010,7 +2010,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "1 m2",
         "price": "185 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9981",
@@ -2018,7 +2018,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "210 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/9991",
@@ -2026,7 +2026,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "2 m2",
         "price": "325 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10011",
@@ -2034,7 +2034,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "3 m2",
         "price": "345 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10021",
@@ -2042,7 +2042,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "380 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10026",
@@ -2050,7 +2050,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "4 m2",
         "price": "450 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10036",
@@ -2058,7 +2058,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "530 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10046",
@@ -2066,7 +2066,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "6 m2",
         "price": "605 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10056",
@@ -2074,7 +2074,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "5 m2",
         "price": "735 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10076",
@@ -2082,7 +2082,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "8 m2",
         "price": "745 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10091",
@@ -2090,7 +2090,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "9 m2",
         "price": "800 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10101",
@@ -2098,7 +2098,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "10 m2",
         "price": "900 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10111",
@@ -2106,7 +2106,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "12 m2",
         "price": "1.240 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10126",
@@ -2114,7 +2114,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "16 m2",
         "price": "1.335 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10166",
@@ -2122,7 +2122,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "18 m2",
         "price": "1.735 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5086/10181",
@@ -2130,7 +2130,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "19 m2",
         "price": "1.730 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/online_booking/10196",
@@ -2138,7 +2138,7 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
+        "m2size": "19 m2",
         "price": "1.660 kr./md.",
         "available": 1,
         "link": "https://pelican.dk/pelican/booking/5086/10201",
@@ -2146,48 +2146,48 @@
         "introPeriod": "Første 2 mdr."
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10061",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "14 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10136",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "15 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10146",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "15 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10156",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "18 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10176",
         "introPrice": "",
         "introPeriod": null
       },
       {
-        "m2size": "m2",
-        "price": "Kontakt os",
+        "m2size": "5 m2",
+        "price": "",
         "available": 0,
         "link": "https://pelican.dk/pelican/request/5086/10206",
         "introPrice": "",
