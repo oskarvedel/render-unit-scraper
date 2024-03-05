@@ -1,6 +1,6 @@
 import * as puppeteer from "puppeteer";
 import * as fs from "fs";
-import { Page } from "puppeteer";
+// import { Page } from "puppeteer";
 import "dotenv/config";
 
 //make the ts file understand that page and button are defined by puppeteer
@@ -10,23 +10,35 @@ export class PelicanScraper {
     console.log("logged new scrape time: " + new Date().toISOString());
 
     const browser = await puppeteer.launch({
-      headless: false,
-      timeout: 60000,
+      headless: true,
+      timeout: 30000,
     });
 
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 800 }); // Set the window size
     await page.goto("https://pelican.dk/find-opbevaringsrum"); // Main page URL
 
+    // Wait for the cookie button to appear and then click it
+    await page.waitForSelector(
+      "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
+    );
+    await page.click("#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll");
+
     // Get all 'a' elements with the classes 'elementor-button', 'elementor-button-link', and 'elementor-size-sm' that are descendants of 'div' elements with the class 'elementor-widget-container' and have the text 'Book online'
     const allLocationsUnitData = [];
 
-    {
-      const roomData = await this.extractRoomData(page);
+    // Get all 'section' elements with the class 'location'
+    const locations = await page.$$("section.location");
 
-      // console.log(roomData);
+    for (const location of locations) {
+      // Extract the location details
+      const locationDetails = await this.extractLocationDetails(location);
 
-      allLocationsUnitData.push({ roomData });
+      // Extract the unit list
+      const unitList = await this.extractRoomData(location);
+
+      // Add the location details and unit list to allLocationsUnitData
+      allLocationsUnitData.push({ locationDetails, unitList });
     }
 
     //convert allLocationsUnitData to JSON
@@ -37,60 +49,88 @@ export class PelicanScraper {
     );
 
     // Save the JSON data to a file
-    fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
+    fs.writeFileSync("pelican.json", allLocationsUnitDataJson);
 
     return allLocationsUnitDataJson;
   }
 
-  // Function to extract data from the room list
-  async extractRoomData(page: Page) {
-    // Get all 'a' elements with the class 'bookinglink'
-    const rooms = await page.$$("a.bookinglink");
+  // Function to extract location details
+  async extractLocationDetails(location: puppeteer.ElementHandle<Element>) {
+    const details = await location.$eval(".details", (div: Element) => {
+      const nameElement = div.querySelector("h2");
+      var name =
+        nameElement && nameElement.textContent
+          ? nameElement.textContent.trim()
+          : null;
+
+      name = "Pelican " + name;
+      return { name };
+    });
+
+    return details;
+  }
+
+  async extractRoomData(location: puppeteer.ElementHandle<Element>) {
+    // Get all 'a' elements with the class 'bookinglink' within the location element
+    const rooms = await location.$$("a.bookinglink");
 
     // Create an empty array to store the extracted data
     const roomData = [];
 
     for (const room of rooms) {
       // Extract the href attribute
-      const href = await page.evaluate(
-        (a: HTMLAnchorElement) => a.getAttribute("href"),
-        room
-      );
-
-      // Extract the unit size
-      const unitSize = await page.evaluate(
-        (a: HTMLAnchorElement) => a.dataset.unitSize,
-        room
-      );
+      const hrefHandle = await room.getProperty("href");
+      const link = await hrefHandle.jsonValue();
 
       // Extract the size
-      const size = await room.$eval(".size", (div: Element) =>
+      const m2size = await room.$eval(".size", (div: Element) =>
         (div as HTMLElement).innerText.trim()
       );
 
-      // Extract the intro price
-      const introPrice = await room.$eval(".intro.price", (div: Element) =>
-        (div as HTMLElement).innerText.trim()
-      );
+      var available = 1;
+
+      let introPeriod = null;
+      const introPriceSpans = await room.$$(".intro.price span");
+      if (introPriceSpans.length > 0) {
+        const innerTextProperty =
+          await introPriceSpans[0].getProperty("innerText");
+        introPeriod = await innerTextProperty.jsonValue();
+        introPeriod = introPeriod.trim();
+      }
+
+      const introPriceElement = await room.$(".intro.price");
+      let introPrice = null;
+      if (introPriceElement !== null) {
+        introPrice = await introPriceElement.$$eval("em", (ems: Element[]) => {
+          if (ems.length === 0) {
+            return "";
+          }
+          const element = ems[0] as HTMLElement;
+          if (element.classList.contains("limited-or-soldout")) {
+            available = 0;
+            return "";
+          }
+          return element.innerText.trim();
+        });
+      }
 
       // Extract the regular price
-      const regularPrice = await room.$eval(".regular.price", (div: Element) =>
-        (div as HTMLElement).innerText.trim()
-      );
-
-      // Extract the action text
-      const actionText = await room.$eval(".action button", (button: Element) =>
-        (button as HTMLElement).innerText.trim()
-      );
+      const regularPriceElement = await room.$(".regular.price");
+      let price = null;
+      if (regularPriceElement !== null) {
+        price = await regularPriceElement.$eval("em", (em: Element) =>
+          (em as HTMLElement).innerText.trim()
+        );
+      }
 
       // Add the extracted data to the roomData array
       roomData.push({
-        href,
-        unitSize,
-        size,
+        m2size,
+        price,
+        available,
+        link,
         introPrice,
-        regularPrice,
-        actionText,
+        introPeriod,
       });
     }
     return roomData;
