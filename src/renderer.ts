@@ -167,6 +167,7 @@ export class Renderer {
       const scraper = new NettolagerScraper();
       //declare units object of type JSON
       let scraper_units: string;
+      console.log("running scraper");
       scraper_units = await scraper.scrapeNettoLagerUnits();
       console.log("finished scrape");
       return scraper_units;

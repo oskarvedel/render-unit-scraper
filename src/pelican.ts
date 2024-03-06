@@ -6,9 +6,6 @@ import "dotenv/config";
 //make the ts file understand that page and button are defined by puppeteer
 export class PelicanScraper {
   async scrapePelicanUnits(): Promise<string> {
-    fs.writeFileSync("scrape_time_pelican.txt", new Date().toISOString());
-    console.log("logged new scrape time: " + new Date().toISOString());
-
     const browser = await puppeteer.launch({
       headless: true,
       timeout: 15000,
@@ -50,6 +47,9 @@ export class PelicanScraper {
 
     // Save the JSON data to a file
     fs.writeFileSync("pelican.json", allLocationsUnitDataJson);
+
+    fs.writeFileSync("scrape_time_pelican.txt", new Date().toISOString());
+    console.log("logged new scrape time: " + new Date().toISOString());
 
     return allLocationsUnitDataJson;
   }
