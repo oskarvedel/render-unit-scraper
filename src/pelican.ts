@@ -51,6 +51,9 @@ export class PelicanScraper {
     fs.writeFileSync("scrape_time_pelican.txt", new Date().toISOString());
     console.log("logged new scrape time: " + new Date().toISOString());
 
+    //close the browser
+    await browser.close();
+
     return allLocationsUnitDataJson;
   }
 

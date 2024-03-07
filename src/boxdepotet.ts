@@ -78,6 +78,9 @@ export class BoxdepotetScraper {
     // Save the JSON data to a file
     fs.writeFileSync("boxdepotet.json", allLocationsUnitDataJson);
 
+    //close the browser
+    await browser.close();
+
     return allLocationsUnitDataJson;
   }
 

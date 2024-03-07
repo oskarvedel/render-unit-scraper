@@ -110,9 +110,18 @@ export class CitySelfStorageScraper {
       const discountProperty = discountElement
         ? await discountElement.getProperty("innerText")
         : null;
-      const discount = discountProperty
+      const discountText = discountProperty
         ? await discountProperty.jsonValue()
         : null;
+
+      let introPrice = null;
+      let introPeriod = null;
+
+      if (discountText) {
+        const parts = discountText.split(" i ");
+        introPrice = parts[0];
+        introPeriod = parts[1];
+      }
 
       // Extract the price
       const priceElement = await room.$(".distance p span");
@@ -132,11 +141,12 @@ export class CitySelfStorageScraper {
       roomData.push({
         size,
         volume,
-        discount,
+        introPrice,
+        introPeriod,
         price,
         link,
       });
+      return roomData;
     }
-    return roomData;
   }
 }

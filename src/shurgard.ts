@@ -72,6 +72,8 @@ export class ShurgardScraper {
     fs.writeFileSync("scrape_time_pelican.txt", new Date().toISOString());
     console.log("logged new scrape time: " + new Date().toISOString());
 
+    browser.close();
+
     return allLocationsUnitDataJson;
   }
 
