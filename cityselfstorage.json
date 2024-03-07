@@ -1,0 +1,541 @@
+[
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/hovedstaden/albertslund/",
+    "unitList": [
+      {
+        "size": "1.0 m2",
+        "volume": "1.0 m³",
+        "discount": "50% i 1 måned",
+        "price": "105 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569207"
+      },
+      {
+        "size": "1.5 m2",
+        "volume": "4.4 m³",
+        "discount": "50% i 1 måned",
+        "price": "175 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=565539"
+      },
+      {
+        "size": "2.0 m2",
+        "volume": "6.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "215 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=565415"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "9.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "280 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=565481"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "12.0 m³",
+        "discount": "50% i 1 måned",
+        "price": "340 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=565820"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "15.0 m³",
+        "discount": null,
+        "price": "819 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587791"
+      },
+      {
+        "size": "7.0 m2",
+        "volume": "19.6 m³",
+        "discount": null,
+        "price": "1139 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=565793"
+      },
+      {
+        "size": "9.0 m2",
+        "volume": "26.1 m³",
+        "discount": null,
+        "price": "1339 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=581546"
+      },
+      {
+        "size": "11 m2",
+        "volume": "27.5 m³",
+        "discount": null,
+        "price": "1569 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=572079"
+      },
+      {
+        "size": "12 m2",
+        "volume": "32.4 m³",
+        "discount": "50% i 1 måned",
+        "price": "875 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=572161"
+      },
+      {
+        "size": "14 m2",
+        "volume": "33.6 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "615 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569267"
+      },
+      {
+        "size": "20 m2",
+        "volume": "54.0 m³",
+        "discount": null,
+        "price": "2839 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569175"
+      },
+      {
+        "size": "25 m2",
+        "volume": "75.0 m³",
+        "discount": "50% i 1 måned",
+        "price": "1725 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=572145"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/hovedstaden/hvidovre/",
+    "unitList": [
+      {
+        "size": "1.0 m2",
+        "volume": "2.4 m³",
+        "discount": null,
+        "price": "309 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569528"
+      },
+      {
+        "size": "1.5 m2",
+        "volume": "3.8 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "195 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569747"
+      },
+      {
+        "size": "2.0 m2",
+        "volume": "5.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "255 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569863"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "7.5 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "335 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569989"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "9.6 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "410 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569439"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "12.5 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "490 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569447"
+      },
+      {
+        "size": "6.0 m2",
+        "volume": "18.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "520 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569632"
+      },
+      {
+        "size": "7.0 m2",
+        "volume": "17.5 m³",
+        "discount": "50% i 1 måned",
+        "price": "575 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=569961"
+      },
+      {
+        "size": "10 m2",
+        "volume": "25.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "715 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571247"
+      },
+      {
+        "size": "11 m2",
+        "volume": "33.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "820 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571449"
+      },
+      {
+        "size": "15 m2",
+        "volume": "42.0 m³",
+        "discount": null,
+        "price": "2189 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571446"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/hovedstaden/ballerup/skovlunde/",
+    "unitList": [
+      {
+        "size": "1.0 m2",
+        "volume": "2.5 m³",
+        "discount": null,
+        "price": "289 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566555"
+      },
+      {
+        "size": "2.0 m2",
+        "volume": "4.8 m³",
+        "discount": null,
+        "price": "469 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570604"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "8.3 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "310 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566193"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "11.0 m³",
+        "discount": null,
+        "price": "809 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566265"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "13.8 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "460 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566681"
+      },
+      {
+        "size": "6.0 m2",
+        "volume": "16.5 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "575 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570472"
+      },
+      {
+        "size": "7.0 m2",
+        "volume": "19.3 m³",
+        "discount": null,
+        "price": "1209 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570586"
+      },
+      {
+        "size": "8.0 m2",
+        "volume": "23.3 m³",
+        "discount": null,
+        "price": "1289 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566463"
+      },
+      {
+        "size": "9.0 m2",
+        "volume": "24.8 m³",
+        "discount": null,
+        "price": "1479 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566861"
+      },
+      {
+        "size": "10 m2",
+        "volume": "25.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "820 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=566297"
+      },
+      {
+        "size": "11 m2",
+        "volume": "27.5 m³",
+        "discount": null,
+        "price": "1749 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570747"
+      },
+      {
+        "size": "14 m2",
+        "volume": "33.6 m³",
+        "discount": null,
+        "price": "1369 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570796"
+      },
+      {
+        "size": "15 m2",
+        "volume": "37.5 m³",
+        "discount": null,
+        "price": "2269 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570738"
+      },
+      {
+        "size": "17 m2",
+        "volume": "42.5 m³",
+        "discount": null,
+        "price": "2399 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570815"
+      },
+      {
+        "size": "19 m2",
+        "volume": "54.7 m³",
+        "discount": null,
+        "price": "2519 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570792"
+      },
+      {
+        "size": "20 m2",
+        "volume": "57.8 m³",
+        "discount": null,
+        "price": "2939 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=572515"
+      },
+      {
+        "size": "28 m2",
+        "volume": "84.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "1805 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=572499"
+      },
+      {
+        "size": "29 m2",
+        "volume": "74.0 m³",
+        "discount": null,
+        "price": "4039 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570765"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/hovedstaden/koebenhavn/sydhavnen/",
+    "unitList": [
+      {
+        "size": "1.0 m2",
+        "volume": "3.8 m³",
+        "discount": "25% op til 2 måneder",
+        "price": "247 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568679"
+      },
+      {
+        "size": "1.5 m2",
+        "volume": "4.1 m³",
+        "discount": null,
+        "price": "409 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568770"
+      },
+      {
+        "size": "2.0 m2",
+        "volume": "6.0 m³",
+        "discount": null,
+        "price": "499 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568246"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "11.4 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "330 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567086"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "12.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "440 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568048"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "12.5 m³",
+        "discount": "25% i 1 måned",
+        "price": "719 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568772"
+      },
+      {
+        "size": "6.0 m2",
+        "volume": "15.0 m³",
+        "discount": "25% i 1 måned",
+        "price": "862 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568611"
+      },
+      {
+        "size": "7.0 m2",
+        "volume": "17.5 m³",
+        "discount": "25% i 1 måned",
+        "price": "929 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568364"
+      },
+      {
+        "size": "7.5 m2",
+        "volume": "18.8 m³",
+        "discount": null,
+        "price": "1309 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568733"
+      },
+      {
+        "size": "8.0 m2",
+        "volume": "24.0 m³",
+        "discount": null,
+        "price": "1489 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568242"
+      },
+      {
+        "size": "9.0 m2",
+        "volume": "25.2 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "820 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567041"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/hovedstaden/koebenhavn/oesterbro/",
+    "unitList": [
+      {
+        "size": "1.5 m2",
+        "volume": "4.5 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "210 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567293"
+      },
+      {
+        "size": "2.0 m2",
+        "volume": "5.0 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "240 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567571"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "6.8 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "355 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567314"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "8.8 m³",
+        "discount": "50% i 1 måned",
+        "price": "455 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571011"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/syddanmark/esbjerg/",
+    "unitList": [
+      {
+        "size": "2.0 m2",
+        "volume": "6.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "183 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587144"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "12.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "310 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587156"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "15.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "395 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587154"
+      },
+      {
+        "size": "6.0 m2",
+        "volume": "18.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "465 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587152"
+      },
+      {
+        "size": "10 m2",
+        "volume": "30.0 m³",
+        "discount": "50% op til 3 måneder",
+        "price": "735 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=587196"
+      }
+    ]
+  },
+  {
+    "locationUrl": "https://cityselfstorage.dk/opbevaring/syddanmark/odense/odense-c/",
+    "unitList": [
+      {
+        "size": "2.0 m2",
+        "volume": "4.8 m³",
+        "discount": "50% i 1 måned",
+        "price": "180 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=570317"
+      },
+      {
+        "size": "3.0 m2",
+        "volume": "7.2 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "245 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567808"
+      },
+      {
+        "size": "4.0 m2",
+        "volume": "8.4 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "280 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=567806"
+      },
+      {
+        "size": "5.0 m2",
+        "volume": "12.0 m³",
+        "discount": "50% i 1 måned",
+        "price": "345 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571652"
+      },
+      {
+        "size": "6.0 m2",
+        "volume": "14.4 m³",
+        "discount": "50% op til 2 måneder",
+        "price": "415 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571700"
+      },
+      {
+        "size": "10 m2",
+        "volume": "24.0 m³",
+        "discount": null,
+        "price": "1279 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571921"
+      },
+      {
+        "size": "11 m2",
+        "volume": "23.1 m³",
+        "discount": "50% i 1 måned",
+        "price": "715 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571983"
+      },
+      {
+        "size": "12 m2",
+        "volume": "28.8 m³",
+        "discount": "25% i 1 måned",
+        "price": "1087 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571636"
+      },
+      {
+        "size": "16 m2",
+        "volume": "38.4 m³",
+        "discount": "25% i 1 måned",
+        "price": "1154 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=571910"
+      },
+      {
+        "size": "20 m2",
+        "volume": "42.0 m³",
+        "discount": null,
+        "price": "2189 kr",
+        "link": "https://cityselfstorage.dk/bestil/?storage_id=568828"
+      }
+    ]
+  }
+]

@@ -7,6 +7,7 @@ import { NettolagerScraper } from "./nettolager";
 
 import { Config } from "./config";
 import { PelicanScraper } from "./pelican";
+import { CitySelfStorageScraper } from "./cityselfstorage";
 
 type SerializedResponse = {
   status: number;
@@ -236,6 +237,76 @@ export class Renderer {
       //declare units object of type JSON
       let scraper_units: string;
       scraper_units = await scraper.scrapePelicanUnits();
+      console.log("finished scrape");
+      return scraper_units;
+    }
+    if (supplier === "cityselfstorage") {
+      console.log("getting cityselfstorage scraper data");
+      let lastRunTime;
+      try {
+        //read the file with the latest runtime
+        console.log("trying to read latest runtimefile");
+        lastRunTime = fs.readFileSync(
+          "scrape_time_cityselfstorage.txt",
+          "utf8"
+        );
+        let lastRunDate = new Date(lastRunTime);
+        console.log(
+          `lastRunTime: ${lastRunDate.getHours()}:${lastRunDate.getMinutes()}:${lastRunDate.getSeconds()}`
+        );
+
+        let currentDate = new Date();
+        console.log(
+          `current time: ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`
+        );
+      } catch (err) {
+        console.error("An error occurred while reading the file:", err);
+      }
+      //check if the last run time is more than 40 minutes ago
+      if (
+        lastRunTime !== undefined &&
+        new Date().getTime() - new Date(lastRunTime).getTime() <
+          0.1 * 60 * 1000 /*40 minutes*/
+      ) {
+        console.log("lastruntime within 40 minutes, returning cached data");
+        try {
+          //read the file
+          console.log("trying to read file");
+          file_data = fs.readFileSync("cityselfstorage.json", "utf8");
+          //parse the file into JSON
+          file_data_units = JSON.parse(file_data);
+        } catch (err) {
+          console.error("An error occurred while reading the file:", err);
+        }
+        if (file_data_units !== null) {
+          console.log("returning file_data_units");
+          return file_data_units;
+        }
+      } else {
+        console.log(
+          "last run time is more than 40 minutes ago, running scraper"
+        );
+      }
+      fs.unlink("cityselfstorage.json", (err) => {
+        if (err) {
+          if (err.code === "ENOENT") {
+            console.error("File doesn't exist, won't try to delete it.");
+          } else {
+            console.error(
+              "An error occurred while trying to delete the file:",
+              err
+            );
+          }
+        } else {
+          console.log("old scrape file deleted successfully");
+        }
+      });
+      //if the last run time is more than 40 minutes ago, or if the file_data_units is null, then run the scraper
+      console.log("running cityselfstorage scraper");
+      const scraper = new CitySelfStorageScraper();
+      //declare units object of type JSON
+      let scraper_units: string;
+      scraper_units = await scraper.scrapeCitySelfStorageUnits();
       console.log("finished scrape");
       return scraper_units;
     }

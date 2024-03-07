@@ -5,7 +5,7 @@ import "dotenv/config";
 import * as os from "os";
 
 //make the ts file understand that page and button are defined by puppeteer
-export class CitySelfStorageScraper {
+export class CitySelfStorageArticleScraper {
   async scrapeCitySelfStorageArticles(): Promise<void> {
     // fs.writeFileSync("scrape_time.txt", new Date().toISOString());
     console.log(
