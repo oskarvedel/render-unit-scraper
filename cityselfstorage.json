@@ -18,8 +18,8 @@
       {
         "size": "1.0 m2",
         "volume": "2.4 m³",
-        "introPrice": null,
-        "introPeriod": null,
+        "introPrice": "",
+        "introPeriod": "",
         "price": "309 kr",
         "link": "https://cityselfstorage.dk/bestil/?storage_id=569528"
       }
@@ -31,8 +31,8 @@
       {
         "size": "1.0 m2",
         "volume": "2.5 m³",
-        "introPrice": null,
-        "introPeriod": null,
+        "introPrice": "",
+        "introPeriod": "",
         "price": "289 kr",
         "link": "https://cityselfstorage.dk/bestil/?storage_id=566555"
       }
@@ -44,7 +44,8 @@
       {
         "size": "1.0 m2",
         "volume": "3.8 m³",
-        "introPrice": "25% op til 2 måneder",
+        "introPrice": "25%",
+        "introPeriod": "2 måneder",
         "price": "247 kr",
         "link": "https://cityselfstorage.dk/bestil/?storage_id=568679"
       }
@@ -56,7 +57,8 @@
       {
         "size": "1.5 m2",
         "volume": "4.5 m³",
-        "introPrice": "50% op til 2 måneder",
+        "introPrice": "50%",
+        "introPeriod": "2 måneder",
         "price": "210 kr",
         "link": "https://cityselfstorage.dk/bestil/?storage_id=567293"
       }
@@ -68,7 +70,8 @@
       {
         "size": "2.0 m2",
         "volume": "6.0 m³",
-        "introPrice": "50% op til 3 måneder",
+        "introPrice": "50%",
+        "introPeriod": "3 måneder",
         "price": "183 kr",
         "link": "https://cityselfstorage.dk/bestil/?storage_id=587144"
       }
