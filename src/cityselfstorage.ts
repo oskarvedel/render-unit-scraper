@@ -148,7 +148,7 @@ export class CitySelfStorageScraper {
         price,
         link,
       });
-      return roomData;
     }
+    return roomData;
   }
 }
