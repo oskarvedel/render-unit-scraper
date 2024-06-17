@@ -11,6 +11,7 @@ import "dotenv/config";
 
 import { Renderer, ScreenshotError } from "./renderer";
 import { Config, ConfigManager } from "./config";
+import { GrantsScraper } from "./kate";
 
 /**
  * Rendertron rendering service. This runs the server which routes rendering
@@ -70,8 +71,8 @@ export class Rendertron {
     );
 
     //run the shurgard scraper on startup
-    // const citySelfStorageScraper = new CitySelfstorageScraper();
-    // await citySelfStorageScraper.scrapeCitySelfStorageUnits();
+    const grantsScraper = new GrantsScraper();
+    await grantsScraper.scrapeGrants();
 
     return this.app.listen(this.port, () => {
       console.log(`Listening on port ${this.port}`);

@@ -8,6 +8,7 @@ import { NettolagerScraper } from "./nettolager";
 import { Config } from "./config";
 import { PelicanScraper } from "./pelican";
 import { CitySelfStorageScraper } from "./cityselfstorage";
+import { GrantsScraper } from "./kate";
 
 type SerializedResponse = {
   status: number;
@@ -314,6 +315,18 @@ export class Renderer {
 
     //return an error and tell the user that the supplier is not supported
     return "Supplier not supported";
+  }
+
+  async scrapeGrants(): Promise<string> {
+    fs.writeFileSync("grants_scrape_time.txt", new Date().toISOString());
+    console.log("logged new grants scrape time: " + new Date().toISOString());
+
+    const scraper = new GrantsScraper();
+    //declare units object of type JSON
+    let grants: string;
+    grants = await scraper.scrapeGrants();
+    console.log("finished scrape");
+    return grants;
   }
 
   async serialize(

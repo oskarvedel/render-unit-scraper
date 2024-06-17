@@ -1,67 +1,56 @@
-// import * as puppeteer from "puppeteer";
-// import * as fs from "fs";
+import * as puppeteer from "puppeteer";
+import * as fs from "fs";
 // import { Page } from "puppeteer";
-// import "dotenv/config";
+import "dotenv/config";
 
-// //make the ts file understand that page and button are defined by puppeteer
-// export class GrantsScraper {
-//   async scrapeGrants(): Promise<string> {
-//     fs.writeFileSync("grants_scrape_time.txt", new Date().toISOString());
-//     console.log("logged new grants scrape time: " + new Date().toISOString());
+//make the ts file understand that page and button are defined by puppeteer
+export class GrantsScraper {
+  async scrapeGrants(): Promise<string> {
+    fs.writeFileSync("grants_scrape_time.txt", new Date().toISOString());
+    console.log("logged new grants scrape time: " + new Date().toISOString());
 
-//     const browser = await puppeteer.launch({
-//       headless: true,
-//     });
+    const browser = await puppeteer.launch({
+      headless: false,
+    });
 
-//     const page = await browser.newPage();
-//     await page.setViewport({ width: 1280, height: 800 }); // Set the window size
-//     await page.goto("https://www.grants.gov/search-grants"); // Main page URL
+    const page = await browser.newPage();
 
-//     const allGrantsData = [];
+    // Set user agent to mimic a common browser
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537"
+    );
 
-//     var counter = 0;
-//     for (let url of departmenUrls) {
-//       //check if the url starts wit  'https://boxdepotet.dk/, else add it
-//       if (!url.startsWith("https://boxdepotet.dk/")) {
-//         url = "https://boxdepotet.dk" + url;
-//       }
+    // Set the viewport size to mimic a desktop browser
+    await page.setViewport({ width: 1280, height: 800 });
 
-//       await page.goto(url);
+    // Enable JavaScript
+    await page.setJavaScriptEnabled(true);
 
-//       if (counter === 0) {
-//         // Wait for the cookie popup to appear
-//         await page.waitForSelector(
-//           "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
-//         );
+    await page.setCacheEnabled(false);
 
-//         // Click the 'Allow all' button
-//         await page.click(
-//           "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
-//         );
-//       }
+    const url = "https://www.grants.gov/search-grants";
 
-//       // Click the 'alle rum' button
-//       await page.click(
-//         ".grow.text-center.text-label.border-solid.border-2.border-primary.rounded.bg-white.text-text a"
-//       );
+    // Navigate to the page
+    await page.goto(url, {
+      waitUntil: "networkidle0",
+    });
 
-//       const roomData = await this.extractRoomData(page);
+    // const allGrantsData = [];
 
-//       // console.log(roomData);
+    await page.goto(url);
 
-//       allGrantsData.push({ url, grantData });
-//       counter++;
-//     }
+    //convert allLocationsUnitData to JSON
+    // const allGrants = JSON.stringify(
+    //   allGrantsData,
+    //   null,
+    //   2
+    // );
 
-//     //convert allLocationsUnitData to JSON
-//     const allGrants = JSON.stringify(
-//       allGrantsData,
-//       null,
-//       2
-//     );
+    const allGrants = "test";
 
-//     // Save the JSON data to a file
-//     fs.writeFileSync("grants.json", allGrants);
+    // Save the JSON data to a file
+    fs.writeFileSync("grants.json", allGrants);
 
-//     return allGrants;
-//   }
+    return allGrants;
+  }
+}

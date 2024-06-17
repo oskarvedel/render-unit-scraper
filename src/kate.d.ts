@@ -1,1 +1,1 @@
-// export function scrapeGrants(): JSON;
+export function scrapeGrants(): JSON;
