@@ -8,6 +8,15 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/build/rendertron.js",
       "preLaunchTask": "build"
+    },
+    {
+      "type": "node",
+      "name": "Launch new",
+      "request": "launch",
+      "program": "${workspaceFolder}/new/scraper.js",
+      "skipFiles": ["<node_internals>/**"],
+      "envFile": "${workspaceFolder}/new/.env", // If you have environment variables in a .env file
+      "preLaunchTask": "build"
     }
   ]
 }
